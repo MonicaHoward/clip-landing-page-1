@@ -32,6 +32,10 @@
   }
 } */
 
+.border {
+  border: 1px solid green;
+}
+
 #info {
   padding-top: 110px;
 }
@@ -51,7 +55,7 @@
 }
 
 #header {
-  width: 537px;
+  /* width: 537px;
   height: 112px;
   left: 183px;
   top: 224px;
@@ -60,11 +64,11 @@
   font-weight: 500;
   line-height: 56px;
   font-size: 48px;
-  color: #183635;
+  color: #183635; */
 }
 
 #subtitle {
-  width: 507px;
+  /* width: 507px;
   height: 75px;
   left: 185px;
   top: 354px;
@@ -75,7 +79,7 @@
   font-size: 20px;
   letter-spacing: -0.02em;
   color: #6b6b6b;
-  margin-top: 24px;
+  margin-top: 24px; */
 }
 
 /* get access button
@@ -99,7 +103,7 @@ text */
 }
 
 .button {
-  width: 129px;
+  /* width: 129px;
   height: 45px;
   position: absolute;
   right: 0px;
@@ -113,7 +117,7 @@ text */
   font-size: 14px;
   letter-spacing: -0.02em;
   color: #183635;
-  padding: 12px 24px 12px 24px;
+  padding: 12px 24px 12px 24px; */
 }
 
 #small-caps {
