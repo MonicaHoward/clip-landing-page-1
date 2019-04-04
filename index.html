@@ -29,31 +29,26 @@
   </head>
   <body>
     <div class="d-md-flex h-md-100 align-items-center">
-      <!-- <c span="2+3" span-s="1+3">
-      <p style="
-      width: 51px;
-      height: 45px;
-      left: 181px;
-      top: 68px;
-      font-family: Work Sans;
-      font-style: normal;
-      font-weight: normal;
-      line-height: 45px;
-      font-size: 28px;
-      letter-spacing: -0.02em;
-      color: #222222;
-      ">Clip</p> -->
-      <div class="col-md-6  border" id="info">
+      <div class="col-md-6 content" id="info">
+        <h1 id="clip">Clip</h1>
         <p id="small-caps">Y-COMBINATOR STARTUP SCHOOL GRANT RECIPIENTS</p>
-        <p id="header">Never forget about your favorite products.</p>
-        <p id="subtitle">
-          Photograph products in-store to see reviews, similar items, and more.
-          Follow your favorites to get notified when they go on sale or are back
-          in stock.
-        </p>
+        <div class="card border-0">
+          <div class="card-body">
+            <p id="header">Never forget about your favorite products.</p>
+          </div>
+        </div>
+        <div class="card border-0">
+          <div class="card-body">
+            <p id="subtitle">
+              Photograph products in-store to see reviews, similar items, and
+              more. Follow your favorites to get notified when they go on sale
+              or are back in stock.
+            </p>
+          </div>
+        </div>
         <button
           id="hover"
-          class="prefinery-form-cta"
+          class="prefinery-form-cta retail-button"
           type="button"
           style="
           border-radius: 5px 5px 5px 5px;
@@ -64,13 +59,14 @@
         >
           <p id="get-access">Get Priority Access</p>
         </button>
-        <img src="retailers.png" style="margin-top: 48px;width: 100%;" alt="" />
+        <div class="card border-0 retailers-card">
+          <div class="card-body">
+            <img src="retailers.png" alt="" id="retailers" />
+          </div>
+        </div>
       </div>
-      <!-- </c> -->
-
-      <div class="col-md-6  border">
+      <div class="col-md-6 border hero">
         <a href="mailto:sk938@cornell.edu" class="button">For Retailers</a>
-        <!-- <img src="placeholder.png" id="mock" alt="" /> -->
       </div>
     </div>
   </body>
